@@ -3,7 +3,9 @@ Eda assignment report
 Hamze Omar
 3/25/2021
 
-## Abstract and introduction
+## Abstract
+
+## Introduction
 
 I am Researching about Sedge Wren. Sedge Wren is a bird found in North
 America. Sedge Wren is also known as Cistothorus Stellaris. It is a
@@ -16,26 +18,44 @@ species are summer breeding. They habitually build their nest as early
 as May and continues until late August. I’ll visualize these characters
 on the project.
 
-## Methods –\> Data Acquisition –\> Results –\> Discussion –\> Literature Cited –\> references
+## Methods
+
+### Data Acquisition
 
 First of all, I attempted to download the data, however, it was a large
 dataset, which that case would take more space from my laptop, so I did
 not have to request access from the original website of eBird. I went on
 the MSUM class share website where the instructor uploaded it
-(\\msumstudents.mnstate.edu) to minimize the size of the data. . Then I
+(\\msumstudents.mnstate.edu) to minimize the size of the data.Then I
 downloaded it. After the download, I read the data into RStudio
 (R.version). I also read into RStudio an auk package with bird
 observations. I installed a cornel lab of ornithology with all the bird
 observations of the dataset using the function
-(remote::install\_girhub). I loaded packages, such as
-library(“gridExtra”), library(“lubridate”), library(“psych”),
-library(“readr”), library(“dplyr”) in the process.
+(remote::install\_girhub). I used (gridExtra) package from (Baptiste
+Auguie 2017), (lubridate) package from (Garrett Grolemund 2011), (psych)
+package from (Revelle, W. 2020), (readr, and dplyr) from (Hadley Wickham
+2020) .
 
-## citation
+## Results
 
-Citation(“dplyr”) citation(“lubricate”) citation(“psych”)
-citation(“readr”) citation(“gridExtra”)
-citation(“install\_github{remotes}”)
+## Discussion
+
+## Literature Cited
+
+Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2021).
+dplyr: A Grammar of Data Manipulation. R package version 1.0.5.
+<https://CRAN.R-project.org/package=dplyr>
+
+Garrett Grolemund, Hadley Wickham (2011). Dates and Times Made Easy with
+lubridate. Journal of Statistical Software, 40(3), 1-25. URL
+<https://www.jstatsoft.org/v40/i03/>.
+
+Revelle, W. (2020) psych: Procedures for Personality and Psychological
+Research, Northwestern University, Evanston, Illinois, USA,
+<https://CRAN.R-project.org/package=psych> Version = 2.0.12,.
+
+Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
+R package version 1.4.0. <https://CRAN.R-project.org/package=readr>
 
 ## Websites cited
 
