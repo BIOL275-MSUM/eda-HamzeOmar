@@ -87,21 +87,19 @@ shows the relation.
   - Do Sedge Wrens re-locate frequently due to natural obstacles, How do
     different seasons affect birds’ habitat?
 
-Will discuss it below in the discussion. ![](Rplot01.jpeg)
+![](Rplot01.jpeg)
 
   - In what months can observers experience the breeding season of Sedge
     Wren?
 
-Will be discussed in the discussion below. ![](Rplot05.jpeg)
+![](Rplot05.jpeg)
 
   - Have the observations increased since 2000?
 
-Will be discussed in the discussion below. ![](Rplot04.jpeg)
+![](Rplot04.jpeg)
 
   - At what time during the day or night does the observation time
     start?
-
-Will discuss it in the discussion below.
 
 ![](Rplot06.jpeg)
 
@@ -131,8 +129,9 @@ conditions or avoiding predators.
     an even higher peak in late June, this kind of breeding occurs when
     the birds migrate or re-locate within the season.
 
-  - Have the observations increased since 2000? Yes, observations have
-    increased significantly since 2000
+  - Have the observations increased since 2000?
+
+Yes, observations have increased significantly since 2000
 
   - At what time during the day or night does the observation time
     start?
