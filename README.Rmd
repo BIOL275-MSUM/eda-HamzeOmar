@@ -1,12 +1,19 @@
 ---
-title: "Eda assignment report"
-author: "Hamze Omar"
-date: "3/25/2021"
 output: github_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, cache = TRUE)
+```
 
-## Abstract 
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+
+
+# AN EXPERIMENT DONE ON Sedge Wren
+
+Hamze Omar, Dr. Merkord
+
+Biosciences Department, Minnesota State University Moorhead, 1104 7th Avenue South, Moorhead, MN 56563 USA
 
 ## Introduction
 
@@ -14,10 +21,18 @@ I am Researching about Sedge Wren. Sedge Wren is a bird found in North America.
 Sedge Wren is also known as Cistothorus Stellaris. It is a passerine bird in the
 family of Troglodytidae mostly found in wet grasslands and meadows.These species
 are summer breeding. They habitually build their nest as early as May and continues
-until late August. In this project, I will focus on the Sedge Wren family on the 
-United States soil. I will create a graphic map or visual map that shows the characters 
-of this bird, such as its breeding season from time to time, where they relocate from time to time, etc. I’ll visualize these characters on the project.
+until late August.
 
+![](https://www.allaboutbirds.org/guide/assets/photo/304461471-720px.jpg)
+
+## Abstract
+
+The Sedge Wren bird is a nomadic territorial bird. Meaning, these birds can show up in a place or an area at once and completely be absent the next. The population of Sedge Wren is divided into North American countries, specifically, US, Canada, and Mexico, so it is not well connected. Sedge Wrens forage on the ground for insects and spiders. In this project, I will focus on the Sedge Wren family on the United States soil. I will create a graphic map or visual map that shows the characteristics of this bird, such as its breeding season from time to time, how the observations are distributed in the States, which states have the highest observations, etc. I will research the state of Minnesota by counting observations in counties. Then, I will conduct more research in Clay county, looking at the patterns of observations' occurrence, then the time of the day the observation checklist starts.
+
+
+![](Rplot.jpeg)
+
+The color spinach green specifies the species in the US soil.
 
 ## Methods 
 
@@ -36,15 +51,74 @@ dataset using the function (remote::install_girhub). I used (gridExtra) package 
 ### Data Preparation
 
 I used (gridExtra) package from (Baptiste Auguie 2017) for graphing and drawing tables
-with plots. I used the (lubridate) package from (Garrett Grolemund 2011) to work
-with dates basically to smooth the research during date and time. I figured, I would need
-a (psych) package from (Revelle, W. 2020) for psychological studies done by Sedge
-Wren Species. Finally, I used "readr" and (dplyr) packages from (Hadley Wickham 2020)
+with plots, combine with (ggplot2) from (H. Wickham 2016). I used the (lubridate) package from (Garrett Grolemund 2011) to work with dates basically to smooth the research during date and time. I figured, I would need a (psych) package from (Revelle, W. 2020) for psychological studies done by Sedge Wren Species. Finally, I used "readr" and (dplyr) packages from (Hadley Wickham 2020)
 to help me read the data and help me translate my thoughts into codes.
 
 ## Results
 
+What are the top states that have the highest observations, and how are they categorized into lists?
+
+Some States have greater observation than the other, the graph below shows the relation.
+
+![](Rplot02.jpeg)
+
+Are the bird observations in the State of Minnesota distributed fairly into each county?
+
+Not at the same rate, some counties show higher observations, the gragh below shows the relation.
+
+![](Rplot03.jpeg)
+
+Do Sedge Wrens re-locate frequently due to natural obstacles, 
+How do different seasons affect birds' habitat?
+
+Will discuss it below in the discussion.
+![](Rplot01.jpeg)
+
+In what months can observers experience the breeding season of Sedge Wren?
+
+Will be discussed in the discussion below.
+![](Rplot05.jpeg)
+
+Have the observations increased since 2000?
+
+Will be discussed in the discussion below.
+![](Rplot04.jpeg)
+
+At what time during the day or night does the observation time start?
+
+Will discuss it in the discussion below.
+
+![](Rplot06.jpeg)
+
 ## Discussion 
+
+- What are the top states that have the highest observations, and how are they categorized into lists? 
+
+The graph shows the states that contain most observations to the least.
+
+- Are the bird observations in the State of Minnesota distributed fairly into each county?
+
+The graph has similar patterns as question one, it is distributed in all counties, but observations may vary. Some counties
+have higher observations than the others.
+
+- Do Sedge Wrens re-locate frequently due to natural obstacles, 
+How do different seasons affect birds' habitat?
+
+Sedge Wren migrates or re-locates for reasons. These include weather conditions or avoiding predators.
+
+- In what month can observers experience the breeding season of Sedge Wren?
+
+The breeding season of Sedge Wren usually starts in Mid May until late August, also,the graph shows a high peak in late May, and an even higher peak in late June, this kind of breeding occurs when the birds migrate or re-locate within the season.
+
+- Have the observations increased since 2000?
+
+Yes, observations have increased significantly since 2000
+
+- At what time during the day or night does the observation time start?
+
+The observation checklist starts early in the morning and falls off throughout the day at the highest peak time around 9 am-10 am
+
+
 
 ## Literature Cited
 
