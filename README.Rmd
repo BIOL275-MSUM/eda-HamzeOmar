@@ -56,35 +56,34 @@ to help me read the data and help me translate my thoughts into codes.
 
 ## Results
 
-What are the top states that have the highest observations, and how are they categorized into lists?
+- What are the top states that have the highest observations, and how are they categorized into lists?
 
 Some States have greater observation than the other, the graph below shows the relation.
 
 ![](Rplot02.jpeg)
 
-Are the bird observations in the State of Minnesota distributed fairly into each county?
-
+- Are the bird observations in the State of Minnesota distributed fairly into each county?
 Not at the same rate, some counties show higher observations, the gragh below shows the relation.
 
 ![](Rplot03.jpeg)
 
-Do Sedge Wrens re-locate frequently due to natural obstacles, 
+- Do Sedge Wrens re-locate frequently due to natural obstacles, 
 How do different seasons affect birds' habitat?
 
 Will discuss it below in the discussion.
 ![](Rplot01.jpeg)
 
-In what months can observers experience the breeding season of Sedge Wren?
+- In what months can observers experience the breeding season of Sedge Wren?
 
 Will be discussed in the discussion below.
 ![](Rplot05.jpeg)
 
-Have the observations increased since 2000?
+- Have the observations increased since 2000?
 
 Will be discussed in the discussion below.
 ![](Rplot04.jpeg)
 
-At what time during the day or night does the observation time start?
+- At what time during the day or night does the observation time start?
 
 Will discuss it in the discussion below.
 
@@ -107,11 +106,9 @@ How do different seasons affect birds' habitat?
 Sedge Wren migrates or re-locates for reasons. These include weather conditions or avoiding predators.
 
 - In what month can observers experience the breeding season of Sedge Wren?
-
 The breeding season of Sedge Wren usually starts in Mid May until late August, also,the graph shows a high peak in late May, and an even higher peak in late June, this kind of breeding occurs when the birds migrate or re-locate within the season.
 
 - Have the observations increased since 2000?
-
 Yes, observations have increased significantly since 2000
 
 - At what time during the day or night does the observation time start?
